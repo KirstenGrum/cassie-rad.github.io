@@ -3,34 +3,30 @@ body{
 	background: #ede3de;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+	font-weight:300;
 	padding: 36px 200px;
 	color: #142738;
 }
+h1, h2, #slogan {
+	font-family: 'Playfair Display', serif;	
+}
 h1{
 	font-size: 4em;
-	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	text-align: center; 
 }
 h2{
 	font-size: 2em;
-	font-family: 'Playfair Display', serif;
-	line-height: 2.5em;
 	text-transform: uppercase;
 }
 #slogan{
 	font-size: 2em;
-	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	font-weight:300;
 	color: #F4436F;
-	line-height: 2.5em;
 }
 p{
-	font-weight: 300;
 }
 ul{
-	font-weight: 300;
 	list-style-type: none;
 }
 li{
