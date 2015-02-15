@@ -1,0 +1,105 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+
+body{
+	color:#414141;
+	background-image:url('../images/background.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+}
+h1,h2{
+	text-transform: uppercase;
+	padding-bottom: .5em;
+}
+h1{
+	color: #B3F700;
+	font-size: 2em;
+}
+nav{
+	background:rgba(255,255,255,.7);
+	padding:1em 4em 7em 6em;
+}
+nav a{
+	display:inline;
+	float: left;
+}
+#menu a{
+	font-weight:100;
+	color:#414141;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5em 1.5em 0 1.5em;
+	float:left;
+}
+#menu a:hover{
+	color:#B3F700;
+	font-weight: 400;
+}
+#menu div{
+	float:right;
+}
+#splash{
+	height:90vh;
+
+}
+#splash h2{
+	font-family: 'Megrim', cursive;
+	font-size:6.5em;
+	line-height: 1.2em;
+	color:#00C41F;
+	padding:2em 0  0 2em;
+}
+#about{
+	background:#414141;
+	color:#fff;
+}
+#about div{
+	padding:5em 9em;
+	line-height:1.5em;
+}
+#services{
+	background: #fff;
+	padding:4em 6em 18em 9em;
+
+}
+#services img{
+	margin: 0 1.5em 2.5em 1.5em;
+}
+#contact{
+	background: rgba(255,255,255,.8);
+	padding:5em 9em;
+}
+#contact a{
+	color:#414141;
+	font-weight: 400;
+	text-decoration: none;
+}
+#contact a:hover{
+	color:#B3F700;
+}
+footer {
+	background:#fff;
+	padding: 1em;
+	text-align: center;
+}
+footer a{
+	padding: 1em;
+}
+.talents {
+	background:rgb(255,255,255);
+	text-align:center;
+	text-transform:uppercase;
+	float:left;
+	width:25%;
+	padding: 2em 3em;
+}	
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
