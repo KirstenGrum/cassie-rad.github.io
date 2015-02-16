@@ -2,10 +2,8 @@
 
 body{
 	color:#414141;
-	background-image:url('../images/background.jpg');
-	background-attachment:fixed;
+	background:url('../images/background.jpg') no-repeat fixed;
 	background-size:cover;
-	background-repeat: no-repeat;
 	font-size:16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
@@ -21,12 +19,13 @@ h1{
 nav{
 	background:rgba(255,255,255,.7);
 	padding:1em 4em 7em 6em;
+	float:right;
 }
 nav a{
-	display:inline;
+	display:block;
 	float: left;
 }
-#menu a{
+nav a{
 	font-weight:100;
 	color:#414141;
 	text-transform: uppercase;
@@ -34,12 +33,9 @@ nav a{
 	padding: 5em 1.5em 0 1.5em;
 	float:left;
 }
-#menu a:hover{
+nav a:hover{
 	color:#B3F700;
 	font-weight: 400;
-}
-#menu div{
-	float:right;
 }
 #splash{
 	height:90vh;
