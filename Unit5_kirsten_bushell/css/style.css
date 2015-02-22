@@ -2,7 +2,7 @@
 
 body{
 	color:#414141;
-	background:url('../images/leaf2.jpg') no-repeat fixed;
+	background:url('../images/background.jpg') no-repeat fixed;
 	background-size:cover;
 	font-size:16px;
 	font-family: 'Roboto', sans-serif;
@@ -13,7 +13,7 @@ h1,h2{
 	padding-bottom: .5em;
 }
 h2{
-	color: #A7EF71;
+	color: #b3f700;
 	font-size: 2em;
 }
 header{
@@ -29,12 +29,12 @@ nav a{
 	color:#414141;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 5em 1.5em 0 1.5em;
+	padding: 4.5em 1.5em 0 1.5em;
 	display:block;
 	float: left;
 }
 a:hover{
-	color:#A7EF71;
+	color:#b3f700;
 	font-weight: 400;
 }
 #splash{
@@ -45,11 +45,11 @@ a:hover{
 	font-family: 'Megrim', cursive;
 	font-size:6.5em;
 	line-height: 1.2em;
-	color: rgba(255,255,255,.6);
+	color: #00c41f;
 	padding:2em 0  0 2em;
 }
 #about{
-	background:rgba(65,65,65,.8);
+	background:rgba(65,65,65,1);
 	color:#fff;
 }
 #about div{
@@ -84,7 +84,7 @@ a:hover{
 	text-decoration: none;
 }
 #contact a:hover{
-	color:#A7EF71;
+	color:#b3f700;
 }
 footer {
 	background:#fff;
