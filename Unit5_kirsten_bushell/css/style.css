@@ -13,7 +13,7 @@ h1,h2{
 	padding-bottom: .5em;
 }
 h2{
-	color: #A7EF71	;
+	color: #A7EF71;
 	font-size: 2em;
 }
 header{
@@ -38,8 +38,8 @@ a:hover{
 	font-weight: 400;
 }
 #splash{
+	max-width: 1200px;
 	height:80vh;
-
 }
 #splash h1{
 	font-family: 'Megrim', cursive;
@@ -53,22 +53,30 @@ a:hover{
 	color:#fff;
 }
 #about div{
-	width: 1200px;
+	max-width: 1200px;
 	padding:5em 9em;
 	line-height:1.5em;
+	margin: 0 auto;
 }
 #services{
 	background: #fff;
+}
+#services div{
+	max-width: 1200px;
 	padding:4em 9em;
-
+	margin: 0 auto;
 }
 #services img{
 	margin: 0 1.5em 2.5em 1.5em;
 }
 #contact{
 	background: rgba(65,65,65,.8);
-	padding:5em 9em;
 	color:#fff;
+}
+#contact div{
+	max-width: 1200px;
+	padding:5em 9em;
+	margin: 0 auto;
 }
 #contact a{
 	color:#FFF;
