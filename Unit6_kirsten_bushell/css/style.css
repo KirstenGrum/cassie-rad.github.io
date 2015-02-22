@@ -1,0 +1,111 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+
+body{
+	color:#414141;
+	background:url('../images/leaf2.jpg') no-repeat fixed;
+	background-size:cover;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+}
+h1,h2{
+	text-transform: uppercase;
+	padding-bottom: .5em;
+}
+h2{
+	color: #A7EF71;
+	font-size: 2em;
+}
+header{
+		background:rgba(255,255,255,.8);
+		padding:1em 6em;
+}
+nav{
+	float:right;
+	max-width:1200px;
+}
+nav a{
+	font-weight:100;
+	color:#414141;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5em 1.5em 0 1.5em;
+	display:block;
+	float: left;
+}
+a:hover{
+	color:#A7EF71;
+	font-weight: 400;
+}
+#splash{
+	max-width: 1200px;
+	height:80vh;
+}
+#splash h1{
+	font-family: 'Megrim', cursive;
+	font-size:6.5em;
+	line-height: 1.2em;
+	color: rgba(255,255,255,.6);
+	padding:2em 0  0 2em;
+}
+#about{
+	background:rgba(65,65,65,.8);
+	color:#fff;
+}
+#about div{
+	max-width: 1200px;
+	padding:5em 9em;
+	line-height:1.5em;
+	margin: 0 auto;
+}
+#services{
+	background: #fff;
+}
+#services div{
+	max-width: 1200px;
+	padding:4em 9em;
+	margin: 0 auto;
+}
+#services img{
+	margin: 0 1.5em 2.5em 1.5em;
+}
+#contact{
+	background: rgba(65,65,65,.8);
+	color:#fff;
+}
+#contact div{
+	max-width: 1200px;
+	padding:5em 9em;
+	margin: 0 auto;
+}
+#contact a{
+	color:#FFF;
+	font-weight: 400;
+	text-decoration: none;
+}
+#contact a:hover{
+	color:#A7EF71;
+}
+footer {
+	background:#fff;
+	padding: 1em;
+	text-align: center;
+}
+footer a{
+	padding: 1em;
+}
+.talents {
+	background:rgb(255,255,255);
+	text-align:center;
+	text-transform:uppercase;
+	float:left;
+	width:25%;
+	padding: 2em 3em;
+}	
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
