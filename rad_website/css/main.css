@@ -78,7 +78,7 @@ a:hover{
 	background:rgba(0,0,0,.8);
 }
 #about div{
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 	padding:4em 6em;
 	color:#fff;
@@ -88,7 +88,7 @@ a:hover{
 	font-weight: 700;
 	text-transform: uppercase;
 	display:inline;
-	padding: 2em;
+	padding: 1em 1.5em 1em 0;
 }
 #about p{
 	font-size: 1.45em;
@@ -104,8 +104,10 @@ a:hover{
 }
 #featured{
 	background:rgba(255,255,255,.8);
-	width:1200px;
 	padding:2em 4em;
+}
+#featured div{
+	max-width: 1200px;
 	margin: 0 auto;
 }
 #featured h2{
@@ -116,7 +118,7 @@ a:hover{
 #featured img{
 	width: 33%;
 	max-width:400px;
-	padding: 0 .5em 2em .5em;
+	padding: 0 1em 2em 0em;
 }	
 #work{
 	width:1200px;
@@ -145,7 +147,7 @@ a:hover{
 #cassie p{
 	background:rgba(255,255,255,.8);
 	font-size:1.1em;
-	padding: 1em;
+	padding: 0.5em 1em;
 	line-height: 1.5em;
 }
 #contact-how {
@@ -170,9 +172,21 @@ a:hover{
 #contact-how a:hover{
 	color:#77ddcf;
 }	
-#journal{
-		height: 100vh;
+#journal {
+	width:600px;
+	text-align: justify;
+	margin:0 auto;
+	height: 100vh;
 }
+#journal div{
+	padding-top: 12em;
+}
+#journal p{
+	background:rgba(255,255,255,.8);
+	font-size:1.1em;
+	padding: 0.5em 1em;
+	line-height: 1.5em;
+}	
 .work-page{
 	width: 1200px;
 	padding-top: 6em;
