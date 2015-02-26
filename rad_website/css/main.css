@@ -26,6 +26,7 @@ header{
 	position: fixed;
 }
 header img{
+	float:left;
 	height:45px;
 	width:80px;
 }
@@ -70,7 +71,7 @@ a:hover{
 	padding: 8em 0 0 6em;
 }
 #splash h1{
-	font-size:2.5em;
+	font-size: 4em;
 	line-height: 1.6em;
 	color: #FFF;
 }
@@ -193,9 +194,10 @@ a:hover{
 	margin: 0 auto;
 }
 .description {
-	width: 25%;
+	width: 20%;
 	float:left;
 	padding-right: 1em;
+	position: fixed;
 }
 .description p{
 	line-height: 1.3em;
