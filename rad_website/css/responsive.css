@@ -1,0 +1,474 @@
+@media only screen and (min-width: 996px) and (max-width: 1126px){
+	#splash h1{
+		font-size: 3.5em;
+	}
+	#splash div{
+		padding: 6em 0 0 6em;
+	}
+	#about div{
+		width: 90%;
+		padding:3em 6em;
+	}
+	.description {
+		width: 30%;
+	}
+	.photo{
+		width: 50%;	
+	}
+}
+@media only screen and (min-width: 927px) and (max-width: 995px){
+	#splash h1{
+		font-size: 3em;
+	}
+	#splash div{
+		padding: 7em 0 0 6em;
+	}
+	#about div{
+		width: 90%;
+		padding:2em 4em;
+	}
+	#about p{
+		padding-top:2em;
+	}
+	#work{
+		width: 90%;
+		padding:4em 1em;
+	}
+	#work img{
+		width: 50%;
+	}
+	#featured{
+		padding:2em;
+	}
+	#featured div{
+		max-width: 100%;
+	}	
+	#cassie, #contact-how, #journal{
+		width: 60%;
+	}
+	.description {
+		width: 30%;
+	}
+	.photo{
+		width: 50%;	
+	}
+}
+@media only screen and (min-width: 861px) and (max-width: 928px){
+	#splash h1{
+		font-size: 3em;
+	}
+	#splash div{
+		padding: 8em 0 0 5em;
+	}
+	#about div{
+		width: 90%;
+		padding:2em 4em;
+	}
+	#about p{
+		padding-top:2em;
+	}
+	#work{
+		width: 90%;
+		padding:4em .5em;
+	}
+	#work img{
+		width: 45%;
+	}
+	#featured{
+		padding:1em;
+	}
+	#featured img{
+		padding: 0 .5em 2em 0em;
+	}
+	#cassie, #contact-how, #journal{
+		width: 60%;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 8em;
+	}
+	.description {
+		width: 30%;
+	}
+	.photo{
+		width: 50%;	
+	}
+}
+@media only screen and (min-width: 827px) and (max-width: 860px){
+	header{
+		padding: .5em 3em 0 3em;	
+	}	
+	#splash h1{
+		font-size: 2.75em;
+	}
+	#splash div{
+		padding: 8em 0 0 5em;
+	}
+	#about div{
+		width: 90%;
+		padding:2em 3em;
+	}
+	#about p{
+		padding-top:2em;
+	}
+	#work{
+		width: 90%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 45%;
+	}
+	#featured{
+		padding:1em;
+	}
+	#featured img{
+		padding: 0 .5em 2em 0em;
+	}
+	#cassie, #contact-how, #journal{
+		width: 75%;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 8em;
+	}
+	.description {
+		width: 50%;
+	}
+	.photo{
+		width: 50%;	
+	}
+}
+@media only screen and (min-width: 743px) and (max-width: 826px){
+	header{
+		padding: .5em 3em 0 3em;	
+	}
+	#splash h1{
+		font-size: 2.75em;
+	}
+	#splash div{
+		padding: 8em 0 0 3em;
+	}
+	#about div{
+		width: 90%;
+		padding:2em;
+	}
+	#about p{
+		font-size: 1.25em;
+		line-height: 1.45em;
+		padding-top:3em;
+	}
+	#work{
+		width: 90%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 45%;
+	}
+	#featured{
+		padding:.5em;
+	}
+	#featured div{
+		max-width: 100%;
+	}
+	#featured img{
+		width: 32%;
+		padding: 0 .25em 2em 0em;
+	}
+	#cassie, #contact-how, #journal{
+		width: 75%;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 8em;
+	}
+	.description {
+		width: 50%;
+	}
+	.photo{
+		width: 50%;	
+	}
+}
+
+@media only screen and (min-width: 590px) and (max-width: 655px){
+	header{
+		padding: .5em 2em 0 1em;	
+	}
+	#splash h1{
+		font-size: 2.25em;
+	}
+	#splash div{
+		padding: 8em 0 0 1em;
+	}
+	#about div{
+		width: 100%;
+		padding:1em;
+	}
+	#about p{
+		font-size: 1.25em;
+		line-height: 1.45em;
+		padding-top:3em;
+	}
+	#work{
+		width: 90%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 45%;
+	}
+	#featured{
+		padding:.5em;
+	}
+	#featured div{
+		max-width: 100%;
+	}
+	#featured img{
+		width: 32%;
+		padding: 0 .25em 2em 0em;
+	}
+	#cassie, #contact-how, #journal{
+		width: 75%;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 8em;
+	}
+	.description {
+		width: 50%;
+	}
+	.photo{
+		width: 50%;	
+	}
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		padding: 1em 0;
+	}
+	footer a{
+		float:none;
+		text-align: center;
+	}	
+}
+
+@media only screen and (min-width: 530px) and (max-width: 590px){
+	header{
+		padding: .5em 2em 0 1em;	
+	}
+	#splash h1{
+		font-size: 2em;
+	}
+	#splash div{
+		padding: 6em 0 0 1em;
+	}
+	#about img{
+		float: none;
+		width: 250px;
+		margin-left: 140px;
+	}
+	#about div{
+		width: 100%;
+		padding:2em 0 1em 0;
+		margin: 0 auto;
+	}
+	#about p{
+		width: 75%;
+		margin: 0 auto;
+		font-size: 1.25em;
+		line-height: 1.45em;
+		padding-top:3em;
+		text-align: justify;
+	}
+	#work{
+		width: 90%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 45%;
+	}
+	#featured{
+		padding:.5em;
+	}
+	#featured div{
+		max-width: 100%;
+	}
+	#featured img{
+		width: 32%;
+		padding: 0 .25em 2em 0em;
+	}
+	#cassie, #contact-how, #journal{
+		width: 75%;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 8em;
+	}
+	.description {
+		width: 50%;
+	}
+	.photo{
+		width: 50%;	
+	}
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		padding: 1em 0;
+	}
+	footer a{
+		float:none;
+		text-align: center;
+	}	
+}
+@media only screen and (min-width: 301px) and (max-width: 529px){
+	header{
+		padding: .5em 2em 0 1em;	
+	}
+	#splash h1{
+		font-size: 1.75em;
+	}
+	#splash div{
+		padding: 6em 0 3em 1em;
+	}
+	#about img{
+		float: none;
+		width: 250px;
+		margin-left: 60px;
+	}
+	#about div{
+		width: 100%;
+		padding:2em 0 1em 0;
+		margin: 0 auto;
+	}
+	#about p{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 1.25em;
+		line-height: 1.45em;
+		padding-top:3em;
+		text-align: justify;
+	}
+	#work{
+		width: 100%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 100%;
+	}
+	#featured{
+		padding:.5em;
+	}
+	#featured div{
+		max-width: 100%;
+		float: none;
+	}
+	#featured img{
+		width: 95%;
+		padding: 0.25em;
+		margin: 0 auto;
+	}
+	#cassie, #contact-how, #journal{
+		width: 90%;
+		background: #CCC;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 6em;
+	}
+	.work-page{
+	width: 90%;
+	padding-top: 6em;
+	margin: 0 auto;
+	}
+	.description {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: justify;
+	}
+	.photo{
+		max-width: 100%;	
+	}
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		padding: 1em 0;
+	}
+	footer a{
+		float:none;
+		text-align: center;
+	}	
+}
+@media only screen and (max-width: 300px){
+	header{
+		padding: .5em 2em 0 1em;	
+	}
+	nav {
+		display: block;
+		text-align: center;
+	}
+	#splash h1{
+		font-size: 1.5em;
+	}
+	#splash div{
+		padding: 6em 0 3em 1em;
+	}
+	#about img{
+		float: none;
+		width: 250px;
+		margin-left: 40px;
+	}
+	#about div{
+		width: 100%;
+		padding:2em 0 1em 0;
+		margin: 0 auto;
+	}
+	#about p{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 1.25em;
+		line-height: 1.45em;
+		padding-top:3em;
+		text-align: justify;
+	}
+	#work{
+		width: 90%;
+		padding:4em 0em;
+	}
+	#work img{
+		width: 100%;
+	}
+	#featured{
+		padding:.5em;
+	}
+	#featured div{
+		max-width: 100%;
+		float: none;
+	}
+	#featured img{
+		width: 99%;
+		padding: 0.25em;
+		margin: 0 auto;
+	}
+	#cassie, #contact-how, #journal{
+		width: 100%;
+		background: #CCC;
+	}
+	#cassie div, #contact-how div, #journal div{
+		padding-top: 6em;
+	}
+	.work-page{
+	width: 90%;
+	padding-top: 6em;
+	margin: 0 auto;
+	}
+	.description {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: justify;
+	}
+	.photo{
+		max-width: 100%;
+	}
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		padding: 1em 0;
+	}
+	footer a{
+		float:none;
+		text-align: center;
+	}	
+}
