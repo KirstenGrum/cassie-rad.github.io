@@ -410,7 +410,9 @@
 	}
 	#cassie, #contact-how, #journal{
 		width: 90%;
-		background: #CCC;
+	}
+	#about-page, #contact, #personal{
+	background: #CCC;
 	}
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 6em;
@@ -492,6 +494,8 @@
 	}
 	#cassie, #contact-how, #journal{
 		width: 100%;
+	}
+	#about-page, #contact, #personal{
 		background: #CCC;
 	}
 	#cassie div, #contact-how div, #journal div{
