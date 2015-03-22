@@ -1,6 +1,6 @@
-*{margin:0; padding:0; box-sizing:border-box;
-	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
-    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);}
+*{margin:0; padding:0; box-sizing:border-box;}
+/*	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);*/
 
 body{
 	color:#414141;
@@ -228,4 +228,45 @@ footer a{
    display: block; 
    height: 0; 
    clear: both;
+}
+
+/*Hamburger Menu*/
+
+.mobile-nav{
+	display: none;
+	float:right;
+	padding-top: .7em;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+ 
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+ 
+.responsive-menu{
+	display: none;
+	font-weight:700;
+	color:#414141;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+ 
+.expand {
+	display: block !important; 
 }

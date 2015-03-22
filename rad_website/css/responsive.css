@@ -298,6 +298,9 @@
 	header{
 		padding: .5em 2em 0 1em;	
 	}
+	nav {
+	display: none;
+	}	
 	#splash h1{
 		font-size: 2em;
 	}
@@ -360,11 +363,18 @@
 		float:none;
 		text-align: center;
 	}	
+	.mobile-nav{
+	display: block;
+	float:right;
+	}
 }
 @media only screen and (min-width: 301px) and (max-width: 529px){
 	header{
 		padding: .5em 2em 0 1em;	
 	}
+	nav {
+	display: none;
+	}	
 	#splash h1{
 		font-size: 1.75em;
 	}
@@ -440,14 +450,17 @@
 		float:none;
 		text-align: center;
 	}	
+	.mobile-nav{
+	display: block;
+	float:right;
+	}
 }
 @media only screen and (max-width: 300px){
 	header{
 		padding: .5em 2em 0 1em;	
 	}
 	nav {
-		display: block;
-		text-align: center;
+		display: none;
 	}
 	#splash h1{
 		font-size: 1.5em;
@@ -523,5 +536,9 @@
 	footer a{
 		float:none;
 		text-align: center;
-	}	
+	}
+	.mobile-nav{
+	display: block;
+	float:right;
+	}
 }
