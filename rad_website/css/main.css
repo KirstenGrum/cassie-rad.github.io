@@ -1,6 +1,4 @@
 *{margin:0; padding:0; box-sizing:border-box;}
-/*	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
-    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);*/
 
 body{
 	color:#414141;
@@ -26,6 +24,7 @@ header{
 	height: 4em;
 	width: 100%;
 	position: fixed;
+	z-index:100;
 }
 header img{
 	float:left;
@@ -124,10 +123,9 @@ a:hover{
 	padding: 0 1em 2em 0em;
 }	
 #work{
-	width: 85%;
-	padding:4em;
+	width: 90%;
+	padding:4em 3em;
 	margin: 0 auto;
-	height:100vh;
 }
 #work img{
 	width: 33%;
@@ -136,8 +134,7 @@ a:hover{
 }
 #work img:hover{
 	opacity:0.5;
-	;
-}	
+}
 #cassie {
 	width:40%;
 	text-align: justify;
@@ -189,14 +186,21 @@ a:hover{
 	font-size:1.1em;
 	padding: 0.5em 1em;
 	line-height: 1.5em;
+}
+#journal a{
+	text-decoration: none;
+	color:#414141;
 }	
-.work-page{
-	width: 87%;
-	padding-top: 6em;
+#journal a:hover{
+	color:#77ddcf;
+}	
+.work-page div{
+	max-width: 80%;
+	padding-top: 3em;
 	margin: 0 auto;
 }
-.description {
-	width: 20%;
+.description{
+	width: 25%;
 	float:left;
 	padding-right: 1em;
 	position: fixed;
@@ -205,15 +209,16 @@ a:hover{
 	line-height: 1.3em;
 	padding-top: 1em;
 }
-.photos {
-	width: 75%;
+.photos{
+	width: 65%;
+	float:right;
 }
 .photos img{
+	width:100%;
 	padding-bottom: 0.5em;
 }
 footer {
-	position: relative;
-	bottom:0;
+	position:absolute;
 	background:#fff;
 	padding: 1em 6em 1em 0;
 	width: 100%;
@@ -257,16 +262,28 @@ footer a{
 	margin: 4px 0;
 	background: rgb(0,0,0);
 	z-index: 99;
-}
- 
+}	 
 .responsive-menu{
 	display: none;
 	font-weight:700;
-	color:#414141;
 	text-transform: uppercase;
 	text-decoration: none;
 }
- 
+.responsive-menu ul{
+	list-style-type: none;
+}
+.responsive-menu a{
+	text-decoration: none;
+	color:#000;
+} 
+.responsive-menu a:hover{
+	color:#77ddcf;
+}	
 .expand {
 	display: block !important; 
+	background: #fff;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1em;
+	padding: 1em;
+	line-height: 1.25em;
 }

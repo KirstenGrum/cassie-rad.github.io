@@ -1,4 +1,7 @@
 @media only screen and (min-width: 996px) and (max-width: 1126px){
+	#splash{
+		height:70vh;
+	}
 	#splash h1{
 		font-size: 3.5em;
 	}
@@ -9,14 +12,11 @@
 		width: 90%;
 		padding:3em 6em;
 	}
-	.description {
-		width: 30%;
-	}
-	.photo{
-		width: 50%;	
-	}
-}
+}	
 @media only screen and (min-width: 927px) and (max-width: 995px){
+	#splash{
+		height:50vh;
+	}
 	#splash h1{
 		font-size: 3em;
 	}
@@ -31,11 +31,7 @@
 		padding-top:2em;
 	}
 	#work{
-		width: 90%;
 		padding:4em 1em;
-	}
-	#work img{
-		width: 50%;
 	}
 	#featured{
 		padding:2em;
@@ -46,14 +42,11 @@
 	#cassie, #contact-how, #journal{
 		width: 60%;
 	}
-	.description {
-		width: 30%;
-	}
-	.photo{
-		width: 50%;	
-	}
 }
 @media only screen and (min-width: 861px) and (max-width: 928px){
+	#splash{
+		height:55vh;
+	}
 	#splash h1{
 		font-size: 3em;
 	}
@@ -68,8 +61,9 @@
 		padding-top:2em;
 	}
 	#work{
-		width: 90%;
+		width: 95%;
 		padding:4em .5em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -86,16 +80,13 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 30%;
-	}
-	.photo{
-		width: 50%;	
-	}
 }
 @media only screen and (min-width: 827px) and (max-width: 860px){
 	header{
 		padding: .5em 3em 0 3em;	
+	}
+	#splash{
+		height:45vh;
 	}	
 	#splash h1{
 		font-size: 2.75em;
@@ -111,8 +102,9 @@
 		padding-top:2em;
 	}
 	#work{
-		width: 90%;
+		width: 95%;
 		padding:4em 0em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -129,16 +121,22 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 50%;
+	.work-page div{
+		max-width: 90%;
 	}
-	.photo{
-		width: 50%;	
+	.description {
+		width: 30%;
+	}
+	.photos{
+		width: 65%;	
 	}
 }
 @media only screen and (min-width: 743px) and (max-width: 826px){
 	header{
 		padding: .5em 3em 0 3em;	
+	}
+	#splash{
+		height:45vh;
 	}
 	#splash h1{
 		font-size: 2.75em;
@@ -156,8 +154,9 @@
 		padding-top:3em;
 	}
 	#work{
-		width: 90%;
-		padding:4em 0em;
+		width: 95%;
+		padding:4em 0.5em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -178,16 +177,22 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 50%;
+	.work-page div{
+		max-width: 90%;
 	}
-	.photo{
-		width: 50%;	
+	.description {
+		width: 30%;
+	}
+	.photos{
+		width: 65%;	
 	}
 }
 @media only screen and (min-width: 656px) and (max-width: 742px){
 	header{
 		padding: .5em 3em 0 3em;	
+	}
+	#splash{
+		height:40vh;
 	}
 	#splash h1{
 		font-size: 2.5em;
@@ -206,7 +211,8 @@
 	}
 	#work{
 		width: 90%;
-		padding:4em 0em;
+		padding:4em 0.5em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -227,17 +233,27 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 50%;
+	.work-page div{
+		max-width: 90%;
 	}
-	.photo{
-		width: 50%;	
+	.description {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: justify;
+	}
+	.photos{
+		width: 100%;
+		float:none;	
 	}
 }
 
 @media only screen and (min-width: 590px) and (max-width: 655px){
 	header{
-		padding: .5em 2em 0 1em;	
+		padding: .5em 3em 0 3em;	
+	}
+	#splash{
+		height:40vh;
 	}
 	#splash h1{
 		font-size: 2.25em;
@@ -256,7 +272,8 @@
 	}
 	#work{
 		width: 90%;
-		padding:4em 0em;
+		padding:4em 0.5em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -277,11 +294,18 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 50%;
+	.work-page div{
+		max-width: 90%;
 	}
-	.photo{
-		width: 50%;	
+	.description {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: justify;
+	}
+	.photos{
+		width: 100%;
+		float:none;	
 	}
 	footer{
 		margin: 0 auto;
@@ -300,6 +324,9 @@
 	}
 	nav {
 	display: none;
+	}	
+	#splash{
+		height:30vh;
 	}	
 	#splash h1{
 		font-size: 2em;
@@ -326,8 +353,9 @@
 		text-align: justify;
 	}
 	#work{
-		width: 90%;
+		width: 95%;
 		padding:4em 0em;
+		margin: 0 auto;
 	}
 	#work img{
 		width: 45%;
@@ -348,11 +376,18 @@
 	#cassie div, #contact-how div, #journal div{
 		padding-top: 8em;
 	}
-	.description {
-		width: 50%;
+	.work-page div{
+		max-width: 90%;
 	}
-	.photo{
-		width: 50%;	
+	.description {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: justify;
+	}
+	.photos{
+		width: 100%;
+		float:none;		
 	}
 	footer{
 		margin: 0 auto;
@@ -374,6 +409,9 @@
 	}
 	nav {
 	display: none;
+	}
+	#splash{
+		height:30vh;
 	}	
 	#splash h1{
 		font-size: 1.75em;
@@ -402,8 +440,10 @@
 	#work{
 		width: 100%;
 		padding:4em 0em;
+		margin: 0 auto;
 	}
 	#work img{
+		max-width:529px;
 		width: 100%;
 	}
 	#featured{
@@ -428,9 +468,12 @@
 		padding-top: 6em;
 	}
 	.work-page{
-	width: 90%;
-	padding-top: 6em;
+	width: 100%;
+	padding-top: .5em;
 	margin: 0 auto;
+	}
+	.work-page div{
+		max-width: 90%;
 	}
 	.description {
 		width: 100%;
@@ -438,8 +481,9 @@
 		position: relative;
 		text-align: justify;
 	}
-	.photo{
-		max-width: 100%;	
+	.photos{
+		width: 100%;
+		float:none;	
 	}
 	footer{
 		margin: 0 auto;
@@ -466,7 +510,7 @@
 		font-size: 1.5em;
 	}
 	#splash div{
-		padding: 6em 0 3em 1em;
+		padding: 6em 0 1em 1em;
 	}
 	#about img{
 		float: none;
@@ -501,7 +545,7 @@
 		float: none;
 	}
 	#featured img{
-		width: 99%;
+		width: 100%;
 		padding: 0.25em;
 		margin: 0 auto;
 	}
@@ -515,7 +559,7 @@
 		padding-top: 6em;
 	}
 	.work-page{
-	width: 90%;
+	width: 100%;
 	padding-top: 6em;
 	margin: 0 auto;
 	}
