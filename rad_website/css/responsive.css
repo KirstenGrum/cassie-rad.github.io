@@ -15,7 +15,7 @@
 }	
 @media only screen and (min-width: 927px) and (max-width: 995px){
 	#splash{
-		height:50vh;
+		height:60vh;
 	}
 	#splash h1{
 		font-size: 3em;
@@ -45,7 +45,7 @@
 }
 @media only screen and (min-width: 861px) and (max-width: 928px){
 	#splash{
-		height:55vh;
+		height:60vh;
 	}
 	#splash h1{
 		font-size: 3em;
@@ -86,7 +86,7 @@
 		padding: .5em 3em 0 3em;	
 	}
 	#splash{
-		height:45vh;
+		height:60vh;
 	}	
 	#splash h1{
 		font-size: 2.75em;
@@ -136,7 +136,7 @@
 		padding: .5em 3em 0 3em;	
 	}
 	#splash{
-		height:45vh;
+		height:60vh;
 	}
 	#splash h1{
 		font-size: 2.75em;
@@ -189,10 +189,10 @@
 }
 @media only screen and (min-width: 656px) and (max-width: 742px){
 	header{
-		padding: .5em 3em 0 3em;	
+		padding: .5em 2em 0 3em;	
 	}
 	#splash{
-		height:40vh;
+		height:60vh;
 	}
 	#splash h1{
 		font-size: 2.5em;
@@ -250,16 +250,16 @@
 
 @media only screen and (min-width: 590px) and (max-width: 655px){
 	header{
-		padding: .5em 3em 0 3em;	
+		padding: .5em 2em 0 3em;	
 	}
 	#splash{
-		height:40vh;
+		height:60vh;
 	}
 	#splash h1{
 		font-size: 2.25em;
 	}
 	#splash div{
-		padding: 8em 0 0 1em;
+		padding: 6em 0 0 1em;
 	}
 	#about div{
 		width: 100%;
@@ -318,39 +318,30 @@
 	}	
 }
 
-@media only screen and (min-width: 530px) and (max-width: 590px){
+@media only screen and (min-width: 530px) and (max-width: 589px){
 	header{
-		padding: .5em 2em 0 1em;	
+		padding: .5em 2em 0 3em;	
 	}
 	nav {
 	display: none;
-	}	
+	}
 	#splash{
-		height:30vh;
-	}	
+		height:60vh;
+	}
 	#splash h1{
-		font-size: 2em;
+		font-size: 2.25em;
 	}
 	#splash div{
 		padding: 6em 0 0 1em;
 	}
-	#about img{
-		float: none;
-		width: 250px;
-		margin-left: 140px;
-	}
 	#about div{
 		width: 100%;
-		padding:2em 0 1em 0;
-		margin: 0 auto;
+		padding:1em;
 	}
 	#about p{
-		width: 75%;
-		margin: 0 auto;
 		font-size: 1.25em;
 		line-height: 1.45em;
 		padding-top:3em;
-		text-align: justify;
 	}
 	#work{
 		width: 95%;
@@ -403,7 +394,7 @@
 	float:right;
 	}
 }
-@media only screen and (min-width: 301px) and (max-width: 529px){
+@media only screen and (min-width: 300px) and (max-width: 529px){
 	header{
 		padding: .5em 2em 0 1em;	
 	}
@@ -411,30 +402,29 @@
 	display: none;
 	}
 	#splash{
-		height:30vh;
-	}	
+		height:60vh;
+	}
 	#splash h1{
-		font-size: 1.75em;
+		font-size: 2.25em;
 	}
 	#splash div{
-		padding: 6em 0 3em 1em;
-	}
-	#about img{
-		float: none;
-		width: 250px;
-		margin-left: 60px;
+		padding: 6em 0 0 1em;
 	}
 	#about div{
 		width: 100%;
-		padding:2em 0 1em 0;
+		padding: 2em 1em;
+		float:none;
 		margin: 0 auto;
 	}
+	#about img{
+		width:100%;
+		padding-bottom: 2em;
+		padding-left:1em;
+	}
 	#about p{
-		width: 90%;
-		margin: 0 auto;
 		font-size: 1.25em;
 		line-height: 1.45em;
-		padding-top:3em;
+		padding-top:1.5em;
 		text-align: justify;
 	}
 	#work{
@@ -448,15 +438,15 @@
 	}
 	#featured{
 		padding:.5em;
+		margin: 0 auto;
 	}
 	#featured div{
-		max-width: 100%;
+		width: 100%;
 		float: none;
 	}
 	#featured img{
-		width: 95%;
+		width: 100%;
 		padding: 0.25em;
-		margin: 0 auto;
 	}
 	#cassie, #contact-how, #journal{
 		width: 90%;
@@ -494,93 +484,6 @@
 		float:none;
 		text-align: center;
 	}	
-	.mobile-nav{
-	display: block;
-	float:right;
-	}
-}
-@media only screen and (max-width: 300px){
-	header{
-		padding: .5em 2em 0 1em;	
-	}
-	nav {
-		display: none;
-	}
-	#splash h1{
-		font-size: 1.5em;
-	}
-	#splash div{
-		padding: 6em 0 1em 1em;
-	}
-	#about img{
-		float: none;
-		width: 250px;
-		margin-left: 40px;
-	}
-	#about div{
-		width: 100%;
-		padding:2em 0 1em 0;
-		margin: 0 auto;
-	}
-	#about p{
-		width: 90%;
-		margin: 0 auto;
-		font-size: 1.25em;
-		line-height: 1.45em;
-		padding-top:3em;
-		text-align: justify;
-	}
-	#work{
-		width: 90%;
-		padding:4em 0em;
-	}
-	#work img{
-		width: 100%;
-	}
-	#featured{
-		padding:.5em;
-	}
-	#featured div{
-		max-width: 100%;
-		float: none;
-	}
-	#featured img{
-		width: 100%;
-		padding: 0.25em;
-		margin: 0 auto;
-	}
-	#cassie, #contact-how, #journal{
-		width: 100%;
-	}
-	#about-page, #contact, #personal{
-		background: #CCC;
-	}
-	#cassie div, #contact-how div, #journal div{
-		padding-top: 6em;
-	}
-	.work-page{
-	width: 100%;
-	padding-top: 6em;
-	margin: 0 auto;
-	}
-	.description {
-		width: 100%;
-		float: none;
-		position: relative;
-		text-align: justify;
-	}
-	.photo{
-		max-width: 100%;
-	}
-	footer{
-		margin: 0 auto;
-		text-align: center;
-		padding: 1em 0;
-	}
-	footer a{
-		float:none;
-		text-align: center;
-	}
 	.mobile-nav{
 	display: block;
 	float:right;

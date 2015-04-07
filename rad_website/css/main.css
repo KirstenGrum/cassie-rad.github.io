@@ -281,9 +281,11 @@ footer a{
 }	
 .expand {
 	display: block !important; 
+	position:absolute;
+	right:0;
 	background: #fff;
 	font-family: 'Cabin', sans-serif;
 	font-size: 1em;
-	padding: 1em;
+	padding: 1em 2em 1em 1em;
 	line-height: 1.25em;
 }
